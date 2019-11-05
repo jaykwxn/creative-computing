@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<img id="dice1" src="images/dice_1.svg">
+<img id="dice2" src="images/dice_2.svg">
+<img id="dice3" src="images/dice_3.svg">
+<img id="dice4" src="images/dice_4.svg">
+<img id="dice5" src="images/dice_5.svg">
+<img id="dice6" src="images/dice_6.svg">
+
+<script type="text/javascript">
+	
+var num = Math.random();
+var whole = Math.floor (num*6)+1;
+document.getElementById("dice1").src = "images/dice_" + whole + ".svg";
+
+var num2 = Math.random();
+var whole2 = Math.floor (num2*6)+1;
+document.getElementById("dice2").src = "images/dice_" + whole2 + ".svg";
+
+var num3 = Math.random();
+var whole3 = Math.floor (num3*6)+1;
+document.getElementById("dice3").src = "images/dice_" + whole3 + ".svg";
+
+var num4 = Math.random();
+var whole4 = Math.floor (num4*6)+1;
+document.getElementById("dice4").src = "images/dice_" + whole4 + ".svg";
+
+var num5 = Math.random();
+var whole5 = Math.floor (num5*6)+1;
+document.getElementById("dice5").src = "images/dice_" + whole5 + ".svg";
+
+var num6 = Math.random();
+var whole6 = Math.floor (num6*6)+1;
+document.getElementById("dice6").src = "images/dice_" + whole6 + ".svg";
+
+
+</script>
+
+</body>
+</html>
