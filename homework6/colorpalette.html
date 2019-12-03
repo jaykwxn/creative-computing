@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+	html,body {
+		margin: 0;
+		height: 100%;
+	}
+	body {
+		display: flex;
+		}
+	div {flex: 1;}
+
+	</style>
+</head>
+<div>
+<body>
+<script type="text/javascript">
+	
+
+	var counter = 0;
+
+	while (counter < 15) {
+		counter = counter + 1;
+		var d = document.createElement("div");
+
+		var rand = Math.random () * 250;
+		var color = "hsl(" + rand + ", 30%, 50%)";
+
+		d.style.backgroundColor = color;
+		document.body.appendChild(d);
+	}
+
+</script>
+
+
+<div/>
+</body>
+</html>
